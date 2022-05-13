@@ -1,13 +1,13 @@
 import React,{Component} from "react"
 import Pic from "./Pic.jsx"
 
-let infoProd = ['nombre', 'img', 'descripcion', 'precio', 'sku', 'stock']
 
 class Productos extends Component {
     constructor(props){
         super(props)
     }
     render() {
+        let infoProd = ['nombre', 'img', 'descripcion', 'precio', 'sku', 'stock']
         return(
             <div>
                 <h2 className="nombre">{this.props.nombre}</h2>
